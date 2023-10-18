@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T04:21:18.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="-PwaZbxdi_SzEzc6BSBl" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T05:16:22.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1oLDMEymWtMZ6gLoq0HW" version="22.0.4" type="github">
   <diagram name="Page-1" id="8Esth4RaEAFLG3FMTzXn">
-    <mxGraphModel>
+    <mxGraphModel dx="842" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8555;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PIDiYUng-bvoLBhdt_yV-1" target="PIDiYUng-bvoLBhdt_yV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-16" value="Port 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PIDiYUng-bvoLBhdt_yV-9">
+          <mxGeometry x="-0.5927" y="1" relative="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PIDiYUng-bvoLBhdt_yV-1" target="PIDiYUng-bvoLBhdt_yV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-15" value="Port 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PIDiYUng-bvoLBhdt_yV-10">
+          <mxGeometry x="-0.4096" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-1" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="493" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-2" value="NTK&lt;br&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/data/cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="583" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-3" value="TTK" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/data/cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="383" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PIDiYUng-bvoLBhdt_yV-1" target="PIDiYUng-bvoLBhdt_yV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-14" value="Port 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PIDiYUng-bvoLBhdt_yV-12">
+          <mxGeometry x="-0.8267" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-11" value="Pluton-new" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=storage;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="723" y="20" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-13" value="" style="sketch=0;points=[[0,0.17,0,0,0],[0,0.33,0,0,0],[0,0.5,0,0,0],[0,0.67,0,0,0],[0,0.82,0,0,0],[0.015,0.015,0,0,0],[0.015,0.985,0,0,0],[0.17,0,0,0,0],[0.17,1,0,0,0],[0.33,0,0,0,0],[0.33,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.67,0,0,0,0],[0.67,1,0,0,0],[0.82,0,0,0,0],[0.82,1,0,0,0],[0.985,0.015,0,0,0],[0.985,0.985,0,0,0],[1,0.17,0,0,0],[1,0.33,0,0,0],[1,0.5,0,0,0],[1,0.67,0,0,0],[1,0.82,0,0,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l2_switch;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="458" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PIDiYUng-bvoLBhdt_yV-1" target="PIDiYUng-bvoLBhdt_yV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-18" value="Port 4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PIDiYUng-bvoLBhdt_yV-17">
+          <mxGeometry x="-0.7371" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-19" value="Port 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PIDiYUng-bvoLBhdt_yV-17">
+          <mxGeometry x="0.6" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-20" value="1208" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=firewall;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.82;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PIDiYUng-bvoLBhdt_yV-13" target="PIDiYUng-bvoLBhdt_yV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIDiYUng-bvoLBhdt_yV-26" value="Port 4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PIDiYUng-bvoLBhdt_yV-25">
+          <mxGeometry x="-0.5421" y="1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
