@@ -1,0 +1,72 @@
+services:
+  nginx-ershov:
+    image: nginx:latest
+    container_name: irmen-nginx
+    restart: unless-stopped
+    environment:
+      TZ: "Asia/Novosibirsk"
+    expose:
+      - "80"
+    volumes:
+      - /opt/docker-services/ershov/irmen/conf/nginx:/etc/nginx
+      - /opt/docker-services/ershov/irmen/www:/usr/share/nginx/html
+    extra_hosts:
+        - "host.docker.internal:host-gateway"
+    networks:
+      ershov_network:
+        ipv4_address: 192.168.27.2
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  mariadb-ershov:
+    image: mariadb:latest
+    container_name: irmen-mariadb
+    restart: always
+    volumes:
+      - /opt/docker-services/ershov/irmen/conf/mariadb/:/etc/mysql/conf.d/
+      - /opt/docker-services/ershov/irmen/maridb:/var/lib/mysql/
+    expose:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rj76jYTezyYF
+      MYSQL_DATABASE: site1
+      MYSQL_USER: site1user
+      MYSQL_PASSWORD: eftdjeaX86ta
+    networks:
+      ershov_network:
+        ipv4_address: 192.168.27.3
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  php81-ershov:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: php81_ershov
+    container_name: irmen-php81
+    expose:
+      - "9000"
+    volumes:
+      - /opt/docker-services/ershov/irmen/www:/usr/share/nginx/html
+    networks:
+      ershov_network:
+        ipv4_address: 192.168.27.4
+    restart: always
+    depends_on:
+      - nginx-ershov
+      - mariadb-ershov
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  ershov_network:
+      name: ershov_network
+      ipam:
+        config:
+        - subnet: 192.168.27.0/24
