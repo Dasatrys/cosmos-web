@@ -1,0 +1,27 @@
+FROM php:8.1-fpm-alpine
+
+RUN addgroup -g 1000 -S app && \
+    adduser -u 1000 -S app -G app
+
+RUN mkdir -p /usr/share/nginx/html
+
+WORKDIR /usr/share/nginx/html
+
+
+RUN apk add \
+    autoconf \
+    build-base \
+    git
+
+RUN docker-php-ext-install pdo_mysql pdo mysqli exif
+RUN apk update && apk add nodejs npm
+RUN pecl install apcu-5.1.21
+RUN docker-php-ext-enable apcu opcache
+
+RUN echo "max_input_vars = 10000" >> /usr/local/etc/php/php.ini
+RUN echo "opcache.revalidate_freq = 0" >> /usr/local/etc/php/php.ini
+
+##add composer install, npm i, npm build
+
+COPY --from=composer:2.1 /usr/bin/composer /usr/local/bin/composer
+USER app
