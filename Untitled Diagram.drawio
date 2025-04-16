@@ -1,9 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.1.3">
   <diagram name="Page-1" id="VlWO9vf8GBHtBqB5PU-0">
-    <mxGraphModel>
+    <mxGraphModel dx="1019" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1yhd7R3F74EVn-NDmOZ4-1" value="Stromwall\Solidwall" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="45.45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1yhd7R3F74EVn-NDmOZ4-2" value="&lt;div&gt;Clients&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;align=left;fillColor=#00188D;shape=mxgraph.mscae.enterprise.workstation_client" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yhd7R3F74EVn-NDmOZ4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.48;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.526;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1yhd7R3F74EVn-NDmOZ4-2" target="1yhd7R3F74EVn-NDmOZ4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
